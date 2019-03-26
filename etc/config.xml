@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <smilesolutions_captcha>
+            <captcha>
+                <dot_noise>35</dot_noise>
+                <line_noise>1</line_noise>
+            </captcha>
+        </smilesolutions_captcha>
+    </default>
+</config>

@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <tab id="smiso" translate="label" sortOrder="8000">
+            <label>smile solutions</label>
+        </tab>
+
+        <section id="smilesolutions_captcha" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="0" showInStore="0">
+            <label>CAPTCHA</label>
+            <tab>smiso</tab>
+            <resource>SmileSolutions_Captcha::smilesolutions_captcha</resource>
+            <group id="captcha" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="0" showInStore="0">
+                <label>CAPTCHA</label>
+                <field id="dot_noise" translate="label comment" type="text" sortOrder="10" showInDefault="1" showInWebsite="0" showInStore="0" canRestore="1">
+                    <label>Dot Noise</label>
+                    <comment>How much noise dots generate.</comment>
+                </field>
+                <field id="line_noise" translate="label comment" type="text" sortOrder="20" showInDefault="1" showInWebsite="0" showInStore="0" canRestore="1">
+                    <label>Line Noise</label>
+                    <comment>How much noise lines generate.</comment>
+                </field>
+            </group>
+        </section>
+    </system>
+</config>
